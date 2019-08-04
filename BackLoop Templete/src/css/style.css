@@ -28,3 +28,11 @@ body {
     padding: 4px;
     border-radius: 5px;
     font-size: 30px; }
+
+#explore-section .fa,
+#share-section .fa {
+  color: #ffff;
+  background: #333;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 30px; }
