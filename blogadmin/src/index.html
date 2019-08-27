@@ -83,10 +83,143 @@
             </div>
         </div>
     </section>
+    <!-- posts -->
+    <section id="posts">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="card">
+                        <div class="card-header">
+                            <h4>Latest Post</h4>
+                        </div>
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Titel</th>
+                                    <th>Category</th>
+                                    <th>Date Posted</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td scope="row">1</td>
+                                    <td>Post One</td>
+                                    <td>Web Development</td>
+                                    <td>Aug 27, 2019</td>
+                                    <td>
+                                        <a href="details.html" class="btn btn-secondary">
+                                            <i class="fa fa-angle-double-right"></i> Details
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">2</td>
+                                    <td>Post Two</td>
+                                    <td>Web Development</td>
+                                    <td>Aug 26, 2019</td>
+                                    <td>
+                                        <a href="details.html" class="btn btn-secondary">
+                                            <i class="fa fa-angle-double-right"></i> Details
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">3</td>
+                                    <td>Post Three</td>
+                                    <td>Web Development</td>
+                                    <td>Aug 25, 2019</td>
+                                    <td>
+                                        <a href="details.html" class="btn btn-secondary">
+                                            <i class="fa fa-angle-double-right"></i> Details
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">4</td>
+                                    <td>Post Four</td>
+                                    <td>Web Development</td>
+                                    <td>Aug 24, 2019</td>
+                                    <td>
+                                        <a href="details.html" class="btn btn-secondary">
+                                            <i class="fa fa-angle-double-right"></i> Details
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">5</td>
+                                    <td>Post Five</td>
+                                    <td>Web Development</td>
+                                    <td>Aug 23, 2019</td>
+                                    <td>
+                                        <a href="details.html" class="btn btn-secondary">
+                                            <i class="fa fa-angle-double-right"></i> Details
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">6</td>
+                                    <td>Post Six</td>
+                                    <td>Web Development</td>
+                                    <td>Aug 22, 2019</td>
+                                    <td>
+                                        <a href="details.html" class="btn btn-secondary">
+                                            <i class="fa fa-angle-double-right"></i> Details
+                                        </a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class=" col-md-3">
+                    <div class="card text-center bg-primary text-white mb-3">
+                        <div class="card-body">
+                            <h3>Posts</h3>
+                            <h1 class="display-4">
+                                <i class="fa fa-pencil"></i> 6
+                            </h1>
+                            <a href="posts.html" class="btn btn-outline-light btn-sm" id="btn-view">View</a>
+                        </div>
+                    </div>
+                    <div class="card text-center bg-success text-white mb-3">
+                        <div class="card-body">
+                            <h3>Categories</h3>
+                            <h1 class="display-4">
+                                <i class="fa fa-folder-open-o"></i> 4
+                            </h1>
+                            <a href="categories.html" class="btn btn-outline-light btn-sm" id="btn-view">View</a>
+                        </div>
+                    </div>
+                    <div class="card text-center bg-warning text-white mb-3">
+                        <div class="card-body">
+                            <h3>User</h3>
+                            <h1 class="display-4">
+                                <i class="fa fa-users"></i> 2
+                            </h1>
+                            <a href="users.html" class="btn btn-outline-light btn-sm" id="btn-view">View</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- footer -->
+    <footer id="main-footer" class="bg-dark text-white mt-5 p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p class="lead text-center">
+                        Copyright &copy;AdminBlog 2019
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-
-
+    <!-- MOdals -->
     <!-- Post Modal -->
     <div class="modal fade" id="addPostModal">
         <div class="modal-dialog modal-lg">
@@ -116,9 +249,9 @@
                             <input type="file" name="" id="" class="form-control-file">
                             <small class="form-text text-muted">Max Size 3mb</small>
                         </div>
-                        <div class="form-group">
+                        <div class="form-group green-border-focus">
                             <label for="body">Body</label>
-                            <textarea id="editor" class="form-control"></textarea>
+                            <textarea id="editor" class="form-control rounded-0" rows="5"></textarea>
                         </div>
                     </form>
                 </div>
